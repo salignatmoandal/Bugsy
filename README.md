@@ -24,3 +24,19 @@ Delivered via a CLI built with Go and Bubbletea, _Bugsy_ offers a portable and d
 - Comprehensive Reporting: Detailed analysis with actionable recommendations
 
 
+# Health check
+```
+curl http://localhost:8000/health
+```
+# Analyze a GitHub repository
+```
+curl -X POST "http://localhost:8000/analyze" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "repo_url": "https://github.com/octocat/Hello-World",
+    "analysis_types": ["structure", "insights", "summary", "error_handling"],
+    "max_files": 50
+  }'
+```
+
+# Request Body:
