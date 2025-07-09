@@ -1,0 +1,87 @@
+# -------------------------
+# Global
+# -------------------------
+.DS_Store
+*.log
+*.swp
+*.tmp
+*.bak
+.env
+*.env
+
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.venv/
+venv/
+env/
+pip-wheel-metadata/
+coverage.*
+.pytest_cache/
+.mypy_cache/
+
+# FastAPI Uvicorn logs
+*.db
+*.sqlite
+*.sqlite3
+
+# -------------------------
+# GitPython / Cloning
+# -------------------------
+data/
+*.lock
+*.orig
+
+# -------------------------
+# ONNX models
+# -------------------------
+*.onnx
+
+# -------------------------
+# Go / Bubbletea
+# -------------------------
+*.exe
+*.out
+*.test
+*.mod
+*.sum
+*.a
+
+# Build artifacts
+bin/
+cmd/**/bin/
+*.so
+*.dll
+
+# Go module cache (optional)
+go.sum
+go.mod
+
+# -------------------------
+# Tests and Coverage
+# -------------------------
+.coverage
+htmlcov/
+test_output/
+tests/__pycache__/
+
+# -------------------------
+# VSCode / IDE
+# -------------------------
+.vscode/
+.idea/
+*.iml
+*.code-workspace
+
+# -------------------------
+# macOS
+# -------------------------
+*.DS_Store
