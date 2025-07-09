@@ -136,7 +136,16 @@ def parse_generic_file(file_path: str, language: str) -> Dict[str, Any]:
         'cpp': r'\w+\s+\w+\s*\(',
         'c': r'\w+\s+\w+\s*\(',
         'php': r'function\s+\w+\s*\(',
-        'ruby': r'def\s+\w+'
+        'ruby': r'def\s+\w+',
+        'rust': r'fn\s+\w+\s*\(',
+        'kotlin': r'fun\s+\w+\s*\(',
+        'swift': r'func\s+\w+\s*\(',
+        'dart': r'function\s+\w+\s*\(',
+        'elixir': r'def\s+\w+\s*\(',
+        'erlang': r'fun\s+\w+\s*\(',
+        'haskell': r'function\s+\w+\s*\(',
+        'scala': r'def\s+\w+\s*\(',
+        'python': r'def\s+\w+\s*\(',
     }
     pattern = function_patterns.get(language)
     functions = []
