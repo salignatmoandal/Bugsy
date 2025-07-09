@@ -1,4 +1,6 @@
-# Bugsy - _Bugsy_ is a lightweight, terminal-first AI-powered tool designed to assist developers and researchers in analyzing source code repositories with a focus on **bug detection**, **code quality assessment**, and **automated improvement suggestions**.
+# Overview
+
+_Bugsy_ is a lightweight, terminal-first AI-powered tool designed to assist developers and researchers in analyzing source code repositories with a focus on **bug detection**, **code quality assessment**, and **automated improvement suggestions**.
 
 Unlike traditional linters or static analysis tools, _Bugsy_ combines **static heuristics** with **large language models (LLMs)** to provide **semantic-level insights** about a repository’s structure, code smells, and potential defects.
 
