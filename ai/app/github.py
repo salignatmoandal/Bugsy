@@ -1,8 +1,7 @@
-import git 
+import git
 import os 
 import tempfile
 import shutil
-from typing import Optional
 import re 
 
 async def clone_repository(repo_url: str) -> str:
